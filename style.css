@@ -1,0 +1,1051 @@
+
+
+/* Landing page */
+
+
+#logo{
+
+    width: 50px;
+    height: 35px;
+    
+    }
+    
+    .navbar-elements{
+        text-decoration: none;
+        color: black;
+        padding-left: 200px;
+        font-size: 20px;
+    }
+    
+    .landpage-buttons{
+    
+    border: solid 1px purple;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    
+    }
+    
+    #banner-heading{
+    
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    color: white;
+    padding-top: 200px;
+    }
+    
+    #landpage-signIn-signUp{
+    
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    #banner-paragraph{
+        padding-top:50px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    
+    #navbar{
+        border: solid 1px white;
+        background-color: white;
+        padding: 10px 70px;
+        border-radius: 30px;
+    }
+    
+    #Landing-Page{
+    
+        padding: 10px 50px 170px 50px ;
+        background-image: url(images/new-banner.jpg);
+        background-size: 1900px 1000px ;
+        background-repeat: no-repeat;
+    
+    }
+    
+    
+    
+    /* Sign up form */
+    
+    
+    #sign-up{
+    
+    padding: 30px 500px ;
+    
+    }
+    
+    .Input-fields{
+    
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid purple 0.5px;
+    }
+    
+    .horizontal-Line{
+    
+    width: 400px;
+    height: 0.5px;
+    
+    }
+    
+    #horizontal-Line{
+    
+    display: flex;
+    color: black;
+    
+    
+    }
+    
+    label{
+    
+         font-size: 30px;
+    }
+    
+    h1{
+    
+        font-size: 60px;
+    
+    }
+    
+    button{
+    
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+    
+    }
+    
+    #Interest-label{
+    
+    font-size: 19px;
+    
+    }
+    
+    #Mentor-details{
+    
+    padding-top: 50px;
+    
+    }
+    
+    form{
+    background-color: rgb(182, 156, 182);
+    border: solid 1px;
+    padding: 50px;
+    width: 530px;
+    border-radius: 50px;
+    
+    }
+    
+    p{
+    
+    font-size: 20px;
+    }
+    
+    a{
+    
+        text-decoration: none;
+        color: black;
+    }
+    
+    #welcome{
+    
+        font-size: 30px;
+    }
+    
+    
+    
+    /* Tasks */
+    
+    .tasks-InputField{
+    
+        width: 500px;
+        border-radius: 5px;
+        padding: 10px;
+        border: solid purple 0.5px;
+    
+    }
+    
+    
+    
+    
+    /* To-Do */
+    
+    
+    #add-button{
+    
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: purple;
+    background-color: white;
+    
+    }
+    
+    #task-inputField{
+    
+    padding: 10px 300px 10px 10px;
+    
+    }
+    
+    
+    .toDo-heading{
+    
+        color: white;
+    text-align: center;
+    
+    }
+    
+    button{
+    
+        padding: 10px 30px;
+        border-radius: 5px;
+    
+    }
+    
+        /* GOALS */
+    
+        .goals-InputField{
+    
+            width: 500px;
+            border-radius: 5px;
+            padding: 10px;
+            border: solid purple 0.5px;
+    
+        }
+    
+        .Time-span-inputField{
+    
+            padding: 5px;
+        }
+    
+        #goals-form{
+            background-color: rgb(212, 162, 231);
+            border: solid 1px; 
+            padding: 40px;
+            width: 650px;
+            margin: auto;
+         border-radius: 50px;
+        
+            }
+    
+            /* Achievements */
+    
+    
+            #achievement-inputField{
+                
+                width: 500px;
+                border-radius: 5px;
+                padding: 50px;
+                border: solid purple 0.5px;
+            }
+    
+            .Achievement-icon{
+                padding-top: 100px;
+    
+                width: 40px;
+                height: 40px;
+            }
+    
+            #achievement-form{
+                background-color: rgb(212, 162, 231);
+                border: solid 1px;
+                padding: 40px;
+                width: 650px;
+         
+                border-radius: 50px;
+            }
+    
+            /* Mentor's Profile */
+    
+            #mentor-picture{
+    
+                width: 400px;
+                height: 400px;
+                border-radius: 40px;
+            }
+    
+            #Mentor-profile{
+                display: flex;
+                gap: 20px;
+                background-color:black;
+                border: solid 1px;
+                padding: 50px 30px;
+                width: 700px;
+            
+                border-radius: 50px;
+                color: white;
+                font-size: 10px;
+            }
+    
+            #Mentor-details{
+    
+          
+                padding-top: 270px;
+    
+            }
+    
+            .Mentor-details{
+    
+                font-size: 24px;
+         
+            }
+    
+    
+    
+    
+    
+    
+    
+    *{
+        box-sizing: border-box;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      
+      ul li {
+        position: relative;
+        padding: 12px 8px 12px 40px;
+        background: #eee;
+        font-size: 18px;
+      
+      }
+      
+      ul li:hover {
+        background: #ddd;
+      }
+      
+      ul li.checked {
+        background: rgb(184, 157, 184);
+        color: #fff;
+        text-decoration: line-through;
+      }
+      
+      .close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 12px 16px 12px 16px;
+      }
+      
+      .close:hover {
+        background-color:rgb(132, 125, 132);
+        color: white;
+      }
+     
+      .header {
+        background-color: rgb(213, 168, 213);
+        padding: 40px 80px;
+        color: white;
+        text-align: center;
+        border-radius: 30px;
+        width: 1500px;
+      }
+      
+    
+      .header:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    
+    
+     */
+      
+      .addBtn {
+        padding: 10px;
+        width: 100px;
+        background: rgb(229, 182, 229);
+        color: white;
+        float: left;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px;
+      }
+      
+      .addBtn:hover {
+        background-color: rgb(178, 88, 178);
+      }
+    
+    #summary-form{
+    
+    border: solid 1px ;
+    border-radius: 20px;
+    background-color:rgb(182, 156, 182);
+    width: 810px;
+    /* color: white; */
+    }
+    
+    #summary-heading{
+    padding-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #Summary-input{
+    
+    border: solid 1px gray;
+    padding: 10px 235px 10px 5px;
+    background-color: white;
+    
+    }
+    
+    
+            @media only screen and (max-width: 1280px){
+    
+                #logo{
+    
+                    width: 30px;
+                    height: 15px;
+                    
+                    }
+                    
+                    .navbar-elements{
+                        text-decoration: none;
+                        color: black;
+                        padding-left: 150px;
+                        font-size: 20px;
+                    }
+                    
+                    
+                    #banner-heading{
+                    
+                    text-align: center;
+                    font-size: 50px;
+                    padding: 10px;
+                    color: white;
+                    padding-top: 200px;
+                    }
+                    
+                    #banner-paragraph{
+                        padding-top:50px;
+                        text-align: center;
+                        font-size: 20px;
+                        color: white;
+                    }
+                    
+                    #navbar{
+                        border: solid 1px white;
+                        background-color: white;
+                        padding: 10px 30px;
+                        border-radius: 30px;
+                    
+                    }
+                    
+                    #Landing-Page{
+                    
+                        padding: 10px 10px 170px 20px ;
+                        background-image: url(images/new-banner.jpg);
+                        background-size: 1500px 900px ;
+                        background-repeat: no-repeat;
+                    
+                    }
+    
+    
+            #mentor-picture{
+    
+                width: 300px;
+                height: 300px;
+                border-radius: 40px;
+            }
+    
+            #Mentor-profile{
+                display: flex;
+                gap: 30px;
+                background-color:black;
+                border: solid 1px purple;
+                padding: 20px 50px;
+                width: 550px;
+                /* margin: auto; */
+                border-radius: 50px;
+                color: white;
+                font-size: 10px;
+                padding-left: 20px;
+            }
+    
+        
+    
+            .Mentor-details{
+    
+                font-size: 20px;
+         
+            }
+    
+            #sign-up{
+    
+                padding: 30px 300px ;
+                
+                }     
+    
+    
+            }
+    
+            @media only screen and (min-width: 912px) and (max-width: 1024px){
+    
+        
+                    
+                    .navbar-elements{
+                        text-decoration: none;
+                        color: black;
+                        padding-left: 80px;
+                        font-size: 20px;
+                    }
+    
+                    #sign-up{
+    
+                        padding: 30px 100px ;
+                        
+                        }     
+                    
+                }
+    
+            @media only screen and (min-width: 768px) and (max-width:820px){
+    
+                .navbar-elements{
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 50px;
+                    font-size: 20px;
+                }
+    
+                #sign-up{
+    
+                    padding: 30px 70px ;
+                    
+                    }    
+    
+                    #Mentor-profile{
+                        gap: 10px;
+                        padding: 20px 20px;
+                      
+                    }
+    
+                        
+                        #task-inputField{
+                        
+                        padding: 10px 250px 10px 10px;
+                        
+                        }
+    
+                        #achievement-inputField{
+                
+                            width: 450px;
+                            border-radius: 5px;
+                            padding: 40px;
+                            border: solid purple 0.5px;
+                        }
+                
+                        #achievement-form{
+                            padding: 40px;
+                            width: 520px;
+                        }
+                        
+            }
+    
+    
+     @media only screen  and (min-width: 300px)and (max-width:414px){
+    
+        .navbar-elements{
+            text-decoration: none;
+            color: black;
+            padding-left: 10px;
+            font-size: 9px;
+        }
+    
+        #Mentor-profile{
+            flex-direction: column;
+            width: 300px;
+        
+        }
+    
+    
+        .Input-fields{
+    
+            width: 260px;
+            border-radius: 5px;
+            padding: 10px;
+            border: solid purple 0.5px;
+            }
+    
+    
+    
+        #sign-up{
+    
+            padding: 30px 0px ;
+            
+            }
+            
+            form{
+                background-color: rgb(182, 156, 182);
+                border: solid 1px;
+                padding: 20px;
+                width: 320px;
+                border-radius: 50px;
+                
+                }
+    
+            
+            #mentor-picture{
+    
+                width: 200px;
+                height: 200px;
+            }
+    
+    
+            #Mentor-details{
+    
+                padding-top: 0.5px;
+            }
+    
+            .Mentor-details{
+                font-size: 17px;
+            }
+    
+            #meet-your-mentor-heading{
+    
+    font-size: 50px;
+    
+            }
+    
+            .goals-InputField{
+    
+                width: 220px;
+                border-radius: 5px;
+                padding: 10px;
+        
+            }
+            #banner-heading{
+    
+                text-align: center;
+                font-size: 80px;
+                padding: 20px;
+                color: white;
+                padding-top: 200px;
+                }
+                        
+                #task-inputField{
+                    
+                    padding: 10px 100px 10px 10px;
+                    
+                    } 
+    
+    
+    
+                    #achievement-inputField{
+                
+                        width: 200px;
+                        border-radius: 5px;
+                        padding: 20px;
+                        border: solid purple 0.5px;
+                    }
+        
+            
+                    #achievement-form{
+                        padding: 20px;
+                        width: 250px;
+                    }
+    
+                    #achievement-heading{
+    
+                        font-size: 30px;
+    
+                    }
+    
+                    #goals-form{
+                        padding: 20px;
+                        width: 310px;
+                    
+                        }
+                            
+                            #task-inputField{
+                            
+                            padding: 10px 70px 10px 10px;
+                            
+                            } 
+            
+                            #achievement-inputField{
+                        
+                                width: 250px;
+                                border-radius: 5px;
+                                padding: 20px;
+                                border: solid purple 0.5px;
+                            }
+                
+                    
+                            #achievement-form{
+                                padding: 20px;
+                                width: 310px;
+                            }
+    
+    
+     }
+    
+    
+     @media only screen  and (min-width: 430px)and (max-width:540px){
+    
+        .navbar-elements{
+            text-decoration: none;
+            color: black;
+            padding-left: 20px;
+            font-size: 10px;
+        }
+    
+        #Mentor-profile{
+            /* display: flex; */
+            flex-direction: column;
+            gap: 10px;
+            background-color:black;
+            border: solid 1px purple;
+            padding: 20px 50px;
+            width: 270px;
+            /* margin: auto; */
+            border-radius: 50px;
+            color: white;
+            font-size: 10px;
+            padding-left: 20px;
+        }
+    
+        #sign-up{
+    
+            padding: 30px 0px ;
+            
+            }  
+            
+            #mentor-picture{
+    
+                width: 300px;
+                height: 300px;
+                border-radius: 40px;
+            }
+    
+    
+            #Mentor-details{
+    
+                padding-top: 0.5px;
+            }
+    
+            .Mentor-details{
+                font-size: 17px;
+            }
+    
+            .goals-InputField{
+    
+                width: 200px;
+                border-radius: 5px;
+                padding: 10px;
+        
+            }
+        
+            .Time-span-inputField{
+        
+                padding: 5px;
+            }
+        
+            #goals-form{
+                padding: 40px;
+                width: 350px;
+            
+                }
+                    
+                    #task-inputField{
+                    
+                    padding: 10px 100px 10px 10px;
+                    
+                    } 
+    
+                    #achievement-inputField{
+                
+                        width: 250px;
+                        border-radius: 5px;
+                        padding: 20px;
+                        border: solid purple 0.5px;
+                    }
+        
+            
+                    #achievement-form{
+                        padding: 20px;
+                        width: 380px;
+                    }
+    
+                    #achievement-heading{
+    
+                        font-size: 40px;
+    
+                    }
+    
+    
+                    #Landing-Page{
+                    
+                        padding: 10px 10px 170px 20px ;
+                        background-image: url(images/new-banner.jpg);
+                        background-size: 1500px 900px ;
+                        background-repeat: no-repeat;
+                    
+                    }
+    
+                    #Mentor-profile{
+                        flex-direction: column;
+                        width: 370px;
+                    
+                    }
+                
+                
+                    .Input-fields{
+                
+                        width: 340px;
+                        border-radius: 5px;
+                        padding: 10px;
+                        border: solid purple 0.5px;
+                        }
+    
+                           
+            form{
+                background-color: rgb(182, 156, 182);
+                border: solid 1px;
+                padding: 20px;
+                width: 380px;
+                border-radius: 50px;
+                
+                }
+    
+    
+    
+     }
+    
+    
+     @media only screen  and (max-width: 280px){
+    
+    
+        .navbar-elements{
+            text-decoration: none;
+            color: black;
+            padding-left: 6px;
+            font-size: 6px;
+        }
+    
+    
+        #logo{
+    
+            width: 20px;
+            height: 10px;
+            
+            }
+            #banner-heading{
+    
+                text-align: center;
+                font-size: 30px;
+                padding: 10px;
+                color: white;
+                padding-top: 80px;
+                }
+    
+    
+        #Mentor-profile{
+            flex-direction: column;
+            width: 230px;
+        
+        }
+    
+    
+        .Input-fields{
+    
+            width: 260px;
+            border-radius: 5px;
+            padding: 10px;
+            border: solid purple 0.5px;
+            }
+    
+    
+    
+        #sign-up{
+    
+            padding: 30px 0px ;
+            
+            }
+            
+            form{
+                background-color: rgb(182, 156, 182);
+                border: solid 1px;
+                padding: 20px;
+                width: 320px;
+                border-radius: 50px;
+                
+                }
+    
+            
+            #mentor-picture{
+    
+                width: 150px;
+                height: 150px;
+            }
+    
+    
+            #Mentor-details{
+    
+                padding-top: 0.5px;
+            }
+    
+            .Mentor-details{
+                font-size: 17px;
+            }
+    
+            #meet-your-mentor-heading{
+    
+    font-size: 30px;
+    
+            }
+    
+            .goals-InputField{
+    
+                width: 220px;
+                border-radius: 5px;
+                padding: 10px;
+        
+            }
+    
+        
+            #goals-form{
+                padding:40px 15px;
+                width: 20px;
+            
+                }
+    
+                #goals-heading{
+    
+    font-size: 30px;
+    
+                }
+    
+            
+            
+                    #achievement-heading{
+    
+                        font-size: 30px;
+    
+                    }
+    
+                    #goals-form{
+                        padding: 20px;
+                        width: 230px;
+                    
+                        }
+                            
+                            #task-inputField{
+                            
+                            padding: 10px 50px 10px 10px;
+                            
+                            } 
+            
+                            #task-inputField{
+                        
+                                width: 200px;
+                                border-radius: 5px;
+                                padding: 10px;
+                                border: solid purple 0.5px;
+                            }
+    
+                            #achievement-heading{
+    
+                                font-size: 25px;
+                            }
+            
+                    
+                            #achievement-form{
+                                padding: 20px;
+                                width: 240px;
+                            }
+    
+                            #sign-up{
+    
+                                padding: 30px 00px ;
+                                
+                                }
+                                
+                                .Input-fields{
+                                
+                                width: 200px;
+                                border-radius: 5px;
+                                padding: 10px;
+                                border: solid purple 0.5px;
+                                }
+                                
+                                .horizontal-Line{
+                                
+                                width: 60px;
+                                height: 0.5px;
+                                
+                                }
+                                
+                                #horizontal-Line{
+                                
+                                display: flex;
+                                color: black;
+                                
+                                
+                                }
+                                
+                                label{
+                                
+                                     font-size: 20px;
+                                }
+                                
+                                h1{
+                                
+                                    font-size: 40px;
+                                
+                                }
+                                
+                                button{
+                                
+                                padding: 10px 20px;
+                                border-radius: 10px;
+                                background-color: purple;
+                                color: white;
+                                
+                                }
+                                
+                                #Interest-label{
+                                
+                                font-size: 19px;
+                                
+                                }
+                                
+                                #Mentor-details{
+                                
+                                padding-top: 50px;
+                                
+                                }
+                                
+                                form{
+                                background-color: rgb(182, 156, 182);
+                                border: solid 1px;
+                                padding: 20px;
+                                width: 240px;
+                                border-radius: 50px;
+                                
+                                }
+                                
+                                p{
+                                
+                                font-size: 20px;
+                                }
+                                
+                                a{
+                                
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                
+                                #welcome{
+                                
+                                    font-size: 20px;
+                                }
+                                
+    
+    
+     }

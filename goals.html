@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div id="Landing-Page">
+
+        <div id="navbar">
+            <img src="images/image.png" alt="logo" id="logo">
+        <a href="index.html" class="navbar-elements"><b>Home</b></a>
+        <a href="Mentor.html" class="navbar-elements"><b>Mentor</b></a>
+        <a href="to-do.html" class="navbar-elements"><b>To-Do</b></a>
+        <a href="goals.html" class="navbar-elements"><b>Goals</b></a>
+        <a href="achievements.html" class="navbar-elements"><b>Achievement</b></a>
+        
+    </div>
+        
+    <div id="sign-up">
+
+    
+<form id="goals-form">
+<h1 id="goals-heading">GOALS</h1>
+
+<p>"Setting goals is the first step in turning the ivisible into the visible</p>
+<p>_Tony Robbins</p>
+
+<div id="Input-fields">
+
+    <input type="text" id="task-inputField" placeholder="Goal">
+    <button id="add-button"> <b>ADD</b></button>
+    <ul id="add-task"></ul>
+
+</div>
+
+<p>Want to check your accomplishment?</p><br><br>
+
+<button type="submit"><b>ACHIEVEMENT</b></button> 
+
+</div>
+
+</div>
+
+    <script>
+      const todoList = document.getElementById('add-task');
+      const newTaskInput = document.getElementById('task-inputField');
+      const addTaskButton = document.getElementById('add-button');
+      const tasks = [];
+      addTaskButton.addEventListener('click', function() {
+        const task = newTaskInput.value.trim();
+        if (task) { 
+          tasks.push(task);
+          newTaskInput.value = ''; 
+          renderTodoList();
+        }
+      });
+      function renderTodoList() {
+        todoList.innerHTML = '';
+        tasks.forEach((task, index) => {
+          const listItem = document.createElement('li');
+          listItem.innerText = task;
+          const deleteButton = document.createElement('button');
+          deleteButton.innerText = 'Delete';
+          deleteButton.addEventListener('click', function() {
+            tasks.splice(index, 1); 
+            renderTodoList();
+          });
+          listItem.appendChild(deleteButton);
+          todoList.appendChild(listItem);
+        });
+      }
+    </script>
+
+
+</form>
+
+</div>
+
+</div> 
+
+
+</body>
+</html>

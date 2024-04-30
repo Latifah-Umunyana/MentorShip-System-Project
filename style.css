@@ -2,6 +2,10 @@
 
 /* Landing page */
 
+#summary-input{
+
+}
+
 
 #logo{
 
@@ -199,7 +203,7 @@
     }
     
     button{
-    
+
         padding: 10px 30px;
         border-radius: 5px;
     
@@ -389,8 +393,9 @@
     
     #Summary-input{
     
+        margin-bottom: 0;
     border: solid 1px gray;
-    padding: 10px 235px 10px 5px;
+    padding: 14px 477px 14px 5px;
     background-color: white;
     
     }
@@ -482,8 +487,31 @@
                 
                 }     
     
+                #Summary-input{
+    
+                    margin-bottom: 0;
+                border: solid 1px gray;
+                padding: 14px 100px 14px 5px;
+                background-color: white;
+                
+                }
     
             }
+
+           
+            @media only screen and (min-width: 912px){
+
+                #Summary-input{
+    
+                    margin-bottom: 0;
+                border: solid 1px gray;
+                padding: 25px 150px 25px 5px;
+                background-color: white;
+                
+                }
+
+            }
+
     
             @media only screen and (min-width: 912px) and (max-width: 1024px){
     
